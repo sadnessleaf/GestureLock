@@ -1,0 +1,327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E5CA7FF1615DFCE00EB9279 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5CA7FE1615DFCE00EB9279 /* UIKit.framework */; };
+		2E5CA8011615DFCE00EB9279 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5CA8001615DFCE00EB9279 /* Foundation.framework */; };
+		2E5CA8031615DFCE00EB9279 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5CA8021615DFCE00EB9279 /* CoreGraphics.framework */; };
+		2E5CA8091615DFCE00EB9279 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E5CA8071615DFCE00EB9279 /* InfoPlist.strings */; };
+		2E5CA80B1615DFCE00EB9279 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5CA80A1615DFCE00EB9279 /* main.m */; };
+		2E5CA80F1615DFCE00EB9279 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5CA80E1615DFCE00EB9279 /* AppDelegate.m */; };
+		2E5CA8111615DFCE00EB9279 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5CA8101615DFCE00EB9279 /* Default.png */; };
+		2E5CA8131615DFCE00EB9279 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5CA8121615DFCE00EB9279 /* Default@2x.png */; };
+		2E5CA8151615DFCE00EB9279 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5CA8141615DFCE00EB9279 /* Default-568h@2x.png */; };
+		2E5CA8181615DFCE00EB9279 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5CA8171615DFCE00EB9279 /* ViewController.m */; };
+		2E5CA81B1615DFCE00EB9279 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E5CA8191615DFCE00EB9279 /* ViewController.xib */; };
+		2E5CA8231615E09600EB9279 /* PPLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5CA8221615E09600EB9279 /* PPLockView.m */; };
+		2E5CA8301615EE2300EB9279 /* wallpaper_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5CA82E1615EE2300EB9279 /* wallpaper_bg.png */; };
+		2E5CA8311615EE2300EB9279 /* wallpaper_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5CA82F1615EE2300EB9279 /* wallpaper_bg@2x.png */; };
+		2E5CA8361615EF4B00EB9279 /* lock_btn_none.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5CA8321615EF4B00EB9279 /* lock_btn_none.png */; };
+		2E5CA8371615EF4B00EB9279 /* lock_btn_none@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5CA8331615EF4B00EB9279 /* lock_btn_none@2x.png */; };
+		2E5CA8381615EF4B00EB9279 /* lock_btn_sel.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5CA8341615EF4B00EB9279 /* lock_btn_sel.png */; };
+		2E5CA8391615EF4B00EB9279 /* lock_btn_sel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E5CA8351615EF4B00EB9279 /* lock_btn_sel@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E5CA7FA1615DFCE00EB9279 /* GestureLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5CA7FE1615DFCE00EB9279 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2E5CA8001615DFCE00EB9279 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2E5CA8021615DFCE00EB9279 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2E5CA8061615DFCE00EB9279 /* GestureLock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GestureLock-Info.plist"; sourceTree = "<group>"; };
+		2E5CA8081615DFCE00EB9279 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2E5CA80A1615DFCE00EB9279 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E5CA80C1615DFCE00EB9279 /* GestureLock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GestureLock-Prefix.pch"; sourceTree = "<group>"; };
+		2E5CA80D1615DFCE00EB9279 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E5CA80E1615DFCE00EB9279 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E5CA8101615DFCE00EB9279 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2E5CA8121615DFCE00EB9279 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2E5CA8141615DFCE00EB9279 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2E5CA8161615DFCE00EB9279 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2E5CA8171615DFCE00EB9279 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2E5CA81A1615DFCE00EB9279 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		2E5CA8211615E09600EB9279 /* PPLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPLockView.h; sourceTree = "<group>"; };
+		2E5CA8221615E09600EB9279 /* PPLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPLockView.m; sourceTree = "<group>"; };
+		2E5CA82E1615EE2300EB9279 /* wallpaper_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wallpaper_bg.png; sourceTree = "<group>"; };
+		2E5CA82F1615EE2300EB9279 /* wallpaper_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wallpaper_bg@2x.png"; sourceTree = "<group>"; };
+		2E5CA8321615EF4B00EB9279 /* lock_btn_none.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock_btn_none.png; sourceTree = "<group>"; };
+		2E5CA8331615EF4B00EB9279 /* lock_btn_none@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock_btn_none@2x.png"; sourceTree = "<group>"; };
+		2E5CA8341615EF4B00EB9279 /* lock_btn_sel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock_btn_sel.png; sourceTree = "<group>"; };
+		2E5CA8351615EF4B00EB9279 /* lock_btn_sel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock_btn_sel@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E5CA7F71615DFCE00EB9279 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5CA7FF1615DFCE00EB9279 /* UIKit.framework in Frameworks */,
+				2E5CA8011615DFCE00EB9279 /* Foundation.framework in Frameworks */,
+				2E5CA8031615DFCE00EB9279 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E5CA7EF1615DFCE00EB9279 = {
+			isa = PBXGroup;
+			children = (
+				2E5CA8041615DFCE00EB9279 /* GestureLock */,
+				2E5CA7FD1615DFCE00EB9279 /* Frameworks */,
+				2E5CA7FB1615DFCE00EB9279 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E5CA7FB1615DFCE00EB9279 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E5CA7FA1615DFCE00EB9279 /* GestureLock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E5CA7FD1615DFCE00EB9279 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E5CA7FE1615DFCE00EB9279 /* UIKit.framework */,
+				2E5CA8001615DFCE00EB9279 /* Foundation.framework */,
+				2E5CA8021615DFCE00EB9279 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E5CA8041615DFCE00EB9279 /* GestureLock */ = {
+			isa = PBXGroup;
+			children = (
+				2E5CA8211615E09600EB9279 /* PPLockView.h */,
+				2E5CA8221615E09600EB9279 /* PPLockView.m */,
+				2E5CA80D1615DFCE00EB9279 /* AppDelegate.h */,
+				2E5CA80E1615DFCE00EB9279 /* AppDelegate.m */,
+				2E5CA8161615DFCE00EB9279 /* ViewController.h */,
+				2E5CA8171615DFCE00EB9279 /* ViewController.m */,
+				2E5CA8191615DFCE00EB9279 /* ViewController.xib */,
+				2E5CA8051615DFCE00EB9279 /* Supporting Files */,
+			);
+			path = GestureLock;
+			sourceTree = "<group>";
+		};
+		2E5CA8051615DFCE00EB9279 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E5CA8321615EF4B00EB9279 /* lock_btn_none.png */,
+				2E5CA8331615EF4B00EB9279 /* lock_btn_none@2x.png */,
+				2E5CA8341615EF4B00EB9279 /* lock_btn_sel.png */,
+				2E5CA8351615EF4B00EB9279 /* lock_btn_sel@2x.png */,
+				2E5CA82E1615EE2300EB9279 /* wallpaper_bg.png */,
+				2E5CA82F1615EE2300EB9279 /* wallpaper_bg@2x.png */,
+				2E5CA8061615DFCE00EB9279 /* GestureLock-Info.plist */,
+				2E5CA8071615DFCE00EB9279 /* InfoPlist.strings */,
+				2E5CA80A1615DFCE00EB9279 /* main.m */,
+				2E5CA80C1615DFCE00EB9279 /* GestureLock-Prefix.pch */,
+				2E5CA8101615DFCE00EB9279 /* Default.png */,
+				2E5CA8121615DFCE00EB9279 /* Default@2x.png */,
+				2E5CA8141615DFCE00EB9279 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E5CA7F91615DFCE00EB9279 /* GestureLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E5CA81E1615DFCE00EB9279 /* Build configuration list for PBXNativeTarget "GestureLock" */;
+			buildPhases = (
+				2E5CA7F61615DFCE00EB9279 /* Sources */,
+				2E5CA7F71615DFCE00EB9279 /* Frameworks */,
+				2E5CA7F81615DFCE00EB9279 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GestureLock;
+			productName = GestureLock;
+			productReference = 2E5CA7FA1615DFCE00EB9279 /* GestureLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E5CA7F11615DFCE00EB9279 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "pengjay.cn@gmail.com";
+			};
+			buildConfigurationList = 2E5CA7F41615DFCE00EB9279 /* Build configuration list for PBXProject "GestureLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2E5CA7EF1615DFCE00EB9279;
+			productRefGroup = 2E5CA7FB1615DFCE00EB9279 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E5CA7F91615DFCE00EB9279 /* GestureLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E5CA7F81615DFCE00EB9279 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5CA8091615DFCE00EB9279 /* InfoPlist.strings in Resources */,
+				2E5CA8111615DFCE00EB9279 /* Default.png in Resources */,
+				2E5CA8131615DFCE00EB9279 /* Default@2x.png in Resources */,
+				2E5CA8151615DFCE00EB9279 /* Default-568h@2x.png in Resources */,
+				2E5CA81B1615DFCE00EB9279 /* ViewController.xib in Resources */,
+				2E5CA8301615EE2300EB9279 /* wallpaper_bg.png in Resources */,
+				2E5CA8311615EE2300EB9279 /* wallpaper_bg@2x.png in Resources */,
+				2E5CA8361615EF4B00EB9279 /* lock_btn_none.png in Resources */,
+				2E5CA8371615EF4B00EB9279 /* lock_btn_none@2x.png in Resources */,
+				2E5CA8381615EF4B00EB9279 /* lock_btn_sel.png in Resources */,
+				2E5CA8391615EF4B00EB9279 /* lock_btn_sel@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E5CA7F61615DFCE00EB9279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E5CA80B1615DFCE00EB9279 /* main.m in Sources */,
+				2E5CA80F1615DFCE00EB9279 /* AppDelegate.m in Sources */,
+				2E5CA8181615DFCE00EB9279 /* ViewController.m in Sources */,
+				2E5CA8231615E09600EB9279 /* PPLockView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E5CA8071615DFCE00EB9279 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E5CA8081615DFCE00EB9279 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2E5CA8191615DFCE00EB9279 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E5CA81A1615DFCE00EB9279 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E5CA81C1615DFCE00EB9279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E5CA81D1615DFCE00EB9279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E5CA81F1615DFCE00EB9279 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GestureLock/GestureLock-Prefix.pch";
+				INFOPLIST_FILE = "GestureLock/GestureLock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2E5CA8201615DFCE00EB9279 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GestureLock/GestureLock-Prefix.pch";
+				INFOPLIST_FILE = "GestureLock/GestureLock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E5CA7F41615DFCE00EB9279 /* Build configuration list for PBXProject "GestureLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5CA81C1615DFCE00EB9279 /* Debug */,
+				2E5CA81D1615DFCE00EB9279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E5CA81E1615DFCE00EB9279 /* Build configuration list for PBXNativeTarget "GestureLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E5CA81F1615DFCE00EB9279 /* Debug */,
+				2E5CA8201615DFCE00EB9279 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E5CA7F11615DFCE00EB9279 /* Project object */;
+}
